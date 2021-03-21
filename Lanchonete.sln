@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanchonete", "Lanchonete.csproj", "{1488BCAD-391B-42A9-931F-D098A40E13F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI", "..\WEBAPI\WEBAPI.csproj", "{A1FE24D6-BD9E-450E-B309-255791FDF21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1488BCAD-391B-42A9-931F-D098A40E13F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1488BCAD-391B-42A9-931F-D098A40E13F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1488BCAD-391B-42A9-931F-D098A40E13F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1488BCAD-391B-42A9-931F-D098A40E13F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FE24D6-BD9E-450E-B309-255791FDF21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FE24D6-BD9E-450E-B309-255791FDF21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FE24D6-BD9E-450E-B309-255791FDF21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FE24D6-BD9E-450E-B309-255791FDF21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FFF7D05-1488-47F8-8C98-99B35AD0AFE6}
+	EndGlobalSection
+EndGlobal
