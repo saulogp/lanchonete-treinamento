@@ -71,11 +71,16 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\ILogDB.cs" />
     <Compile Include="Data\IPizzaDB.cs" />
+    <Compile Include="Data\LogDB.cs" />
     <Compile Include="Data\PizzaDB.cs" />
+    <Compile Include="Model\Log.cs" />
     <Compile Include="Model\Pizza.cs" />
     <Compile Include="Model\Refeicao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\IMonitore.cs" />
+    <Compile Include="Proxy\Proxy.cs" />
     <Compile Include="Util\ConnectionDB.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -94,9 +99,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Proxy\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
