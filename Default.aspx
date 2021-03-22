@@ -21,6 +21,13 @@
         .auto-style4 {
             height: 23px;
         }
+        .auto-style5 {
+            width: 514px;
+        }
+        .auto-style6 {
+            height: 23px;
+            width: 514px;
+        }
     </style>
 </head>
 <body style="height: 112px">
@@ -30,43 +37,47 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style1">Descrição</td>
-                <td>
+                <td class="auto-style5">
                     <asp:TextBox ID="txtDesc" runat="server" Width="317px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">Valor</td>
-                <td>
+                <td class="auto-style5">
                     <asp:TextBox ID="txtValor" runat="server" Width="315px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
-                <td>
+                <td class="auto-style5">
                     <asp:Button ID="btnInsert" runat="server" OnClick="btnInsert_Click" Text="Inserir" />
+                </td>
+                <td>
                     <asp:Label ID="lblMSG" runat="server"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
-                <td>
+                <td class="auto-style5">
                     &nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3"></td>
-                <td class="auto-style4">
+                <td class="auto-style6">
                     <asp:GridView ID="gvPizza" runat="server" Width="406px">
                     </asp:GridView>
                 </td>
-                <td class="auto-style4"></td>
+                <td class="auto-style4">
+                    <asp:GridView ID="gvLog" runat="server" Width="293px">
+                    </asp:GridView>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
-                <td>
+                <td class="auto-style5">
                     &nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
